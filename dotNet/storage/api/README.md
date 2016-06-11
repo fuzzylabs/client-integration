@@ -10,4 +10,4 @@ simple storage console app for windows. This is modified version of google .net 
 
 **upload to specific bucket**
 
-StorageSample.exe UploadStream *path-to-credentials.json* *path-to-upload-file* *path-in-bucket*
+GoogleStorage.exe UploadStream *path-to-credentials.json* *path-to-upload-file* *path-in-bucket*

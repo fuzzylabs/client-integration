@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="StorageSample.cs">
     <Files>
-      <File FileName="StorageSample.cs" Line="42" Column="56" />
-      <File FileName="Program.cs" Line="79" Column="35" />
+      <File FileName="StorageSample.cs" Line="99" Column="17" />
+      <File FileName="Program.cs" Line="79" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="storage" expanded="True">
-            <Node name="storage" expanded="True">
-              <Node name="StorageSample.cs" selected="True" />
+            <Node name="storage" expanded="True" selected="True">
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
