@@ -96,6 +96,7 @@ namespace GoogleCloudSamples
         // [START upload_stream]
 		public void UploadStream(string pathToCredentials, string bucketName, string path, string objName)
         {
+			Console.WriteLine(string.Format("Uploading file {0} in progress", path));
 			StorageService storage = CreateStorageClient(pathToCredentials);
             using (var stream = new FileStream (path, FileMode.Open, FileAccess.Read)) {
 				storage.Objects.Insert (
@@ -106,7 +107,7 @@ namespace GoogleCloudSamples
 				).Upload ();
 			}
 
-            Console.WriteLine("Uploaded my-file.txt");
+			Console.WriteLine(string.Format("Uploaded {0}", path));
         }
         // [END upload_stream]
 
