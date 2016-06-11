@@ -1,0 +1,54 @@
+﻿<Properties StartupItem="storage.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StorageSample.cs">
+    <Files>
+      <File FileName="StorageSample.cs" Line="42" Column="56" />
+      <File FileName="Program.cs" Line="79" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="storage" expanded="True">
+            <Node name="storage" expanded="True">
+              <Node name="StorageSample.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/evaldas/code/projects/fuzzy/pipeline/dotnet-docs-samples/storage/api/StorageSample.cs" line="41" column="32" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.storage>
+    <MonoDevelop.Ide.CustomExecutionModes>
+      <Data Name="ListBuckets" Id="c76d4d7e-8186-4f18-b609-9378f383a233" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="ListBuckets" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+      <Data Name="Upload" Id="6e15eff4-b50a-4587-8862-fa9d77b0db62" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="UploadStream /home/evaldas/code/projects/snowplow_dump/fuzzylabs-51607844923a.json /home/evaldas/Downloads/getting-started-dotnet-master.zip 2016/06/11/targetfile.zip" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+    </MonoDevelop.Ide.CustomExecutionModes>
+  </MonoDevelop.Ide.ItemProperties.storage>
+</Properties>
